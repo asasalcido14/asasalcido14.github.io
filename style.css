@@ -1,5 +1,7 @@
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: fixed;
+    
 }
 
 /* how am I supposed to know to address html in css and what to put inside of it like position and min height */
@@ -17,9 +19,9 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    background-color: lawngreen;
     font-family: 'Poppins', sans-serif;
 }
+
 
 #logo {
     color: lawngreen;
@@ -31,14 +33,14 @@ nav {
 .aboutcard {
     /* put some bordering around  */
     margin: auto;
-    margin-top: 20px;
+    margin-top:auto ;
     text-align: middle;
 
 }
 
 /* i need my footer to stay at the bottom of the page */
 #footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 2.5rem;            /* Footer height */
