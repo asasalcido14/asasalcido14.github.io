@@ -1,4 +1,9 @@
-*{
+/* I need to add a background...what kind? */
+/* not the whole page */
+
+
+
+*{    
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -6,11 +11,10 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: fixed;
+    background-color: thistle;
     
 }
 
-/* how am I supposed to know to address html in css and what to put inside of it like position and min height */
 html {
     position: relative;
     min-height: 100%;
@@ -35,23 +39,40 @@ nav {
     letter-spacing: 1px;
     font-size: 20px;
 }
+#content-box {
+    margin: auto;
+    padding: 30px;
+    border-style: solid;
+}
 
 .aboutcard {
     /* put some bordering around  */
     margin: auto;
     margin-top: 20px;
     text-align: middle;
-
+    background-color: whitesmoke;
+}
+.card-img-top{
+    border-style: ridge;
+    border-width: medium;
+    border-color:GREY;
+}
+.card-text{
+    
 }
 
-/* i need my footer to stay at the bottom of the page */
-#footer {
-    position: fixed;
+.footer {
+    position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;            /* Footer height */
+    height: 2.5rem;
+    background-color: khaki;
+    border-style: ridge;
+    border-width: medium;
+    border-color:GREY;
   }
 
+/* give the footer some color */
 
 
 @media screen and (max-width:768px) {
