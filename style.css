@@ -49,8 +49,10 @@ nav {
 
 #content-box {
     margin: auto;
-    padding: 30px;
+    padding: 30px 30px 10px; 
+    background-color: white;
     border-style: solid;
+    width: auto;
 }
 
 .aboutcard {
@@ -79,7 +81,7 @@ footer {
 
     width: 100%;
     height: 2.5rem;
-    background-color: khaki;
+    background-color: white;
     border-style: ridge;
     border-width: medium;
     border-color: GREY;
